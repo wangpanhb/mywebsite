@@ -1,0 +1,72 @@
+.resume_title{
+	background-color: #EAF1DD;
+	color: #41497D;
+	padding: 10px;
+	font-weight:bold;
+}
+.resume_title span{
+	font-size:10px;
+}
+.resume .mybox{
+	position: relative;
+	height: 150px;
+}
+.resume .mybox .box_flex{
+	position: absolute;
+	height: 10px;
+}
+.resume .mybox .box_left{
+	width: 80%;
+	background-color: white;
+	opacity: 0.75;
+	color: black;
+	font-size:20px;
+}
+.resume .mybox .box_right{
+	width: 20%;
+	left: 80%;
+	background-color: white;
+	opacity: 0.75;
+}
+.resume .mybox .box_right img{
+	height: 150px;
+}
+.resume .mybox .box_left span{
+	display: block;
+	padding: 5px;
+}
+.resume .mybox .box_flex div{
+	float: left;
+}
+.resume .mybox .box_flex .right1{
+	margin-left: 80px;
+}
+.resume .mybox .box_left span a{
+	color: black;
+}
+.resume .mybox1{
+	height: 45px;
+}
+.shixi{
+	position: relative;
+	left: 250px;
+}
+.resume .mybox2{
+	height: 140px;
+}
+.resume .mybox3{
+	height: 200px;
+}
+.resume .mybox4{
+	height: 320px;
+}
+.resume_logo{
+	position: absolute;
+	width: 240px;
+	height: 350px;
+	top: 50%;
+	left: 50%;
+	transform:rotate(30deg);
+    -ms-transform:rotate(30deg); 
+    -webkit-transform:rotate(30deg);
+}
