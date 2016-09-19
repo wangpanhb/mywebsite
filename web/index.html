@@ -108,7 +108,7 @@ data:2016.6.29
 		            <a href="javascript:void(0)" class="banner_btn btn_next js_next">
 		            	<span class="banner_btn_arrow"><i></i></span>
 		            </a>
-		            <ul>
+		            <ul class="banner_li">
 		                <li id="imgCard0">
 		                    <a href="" target="_blank"><span style="opacity:0;"></span></a>      
 		                    <img src="./images/music/1.jpg" alt="">
@@ -145,28 +145,168 @@ data:2016.6.29
 		        </div>
 		    </div>
 		    <!-- 音乐收藏 -->
-		    <div class="music_name music_topic">
+		    <div class="music_name">
 		    	<div class="m_title rcmleft">
 		    		<span>最新推荐</span>
 		    		<a href="" class="play_btn"></a>
 		    		<a href="" class="add_btn"></a>
-		    		<a href="" class="more"></a>
+		    		<a href="" class="more">/更多</a>
 		    	</div>
 		    	<div class="m_title rcmcenter">
 		    		<span>最热推荐</span>
 		    		<a href="" class="play_btn"></a>
 		    		<a href="" class="add_btn"></a>
-		    		<a href="" class="more"></a>
+		    		<a href="" class="more">/更多</a>
 		    	</div>
-		    	<div class="rcmright">
+		    	<div class="m_title rcmright">
 		    		<span>巅峰榜</span>
 		    		<a href="" class="play_btn"></a>
 		    		<a href="" class="add_btn"></a>
-		    		<a href="" class="more"></a>
+		    		<a href="" class="more">/更多</a>
 		    	</div>
 		    </div>
-		    <div class="music_name musiclist">
-		   		<div class="">sdfa</div>
+		    <div id="music_favorite" class="music_favorite music_menu">
+	        	<ul class="menu_cont menu_left">
+		            <li class="show">
+		                <a href="" class="musicName">爱情大师 - 崔子格</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc1" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">就是现在 - 王力宏</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc2" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">爱与诚(live版) - 古巨基</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc3" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">野子(live版) - 苏运莹</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc4" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">闹啥子嘛闹 - 张杰</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc5" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">冬天的树 - 戚薇</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc6" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">我笑到都哭了 - A-Lin</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc7" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">你是如此难以忘记 - 李宇春</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc8" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">千秋 - 孙楠</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc9" class="playIcon" href="javascript:;"></a>
+		            </li>
+	        	</ul>
+		        <ul class="menu_cont menu_center">
+		            <li class="show">
+		                <a href="" class="musicName">可惜没如果 - 林俊杰</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc10" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">一切安好 - 莫文蔚</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc11" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">算什么男人 - 周杰伦</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc12" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">独行 - 苏醒</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc13" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">我醒着做梦 - 张学友</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc14" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">帽子戏法 - 魏晨</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc15" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">沧浪之歌 - 汪峰</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc16" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">失忆的金鱼 - 杨丞琳</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc17" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName">说走就走的旅行 - 李行亮</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc18" class="playIcon" href="javascript:;"></a>
+		            </li>
+		        </ul>
+		        <ul class="menu_cont menu_right">
+		            <li class="show">
+		                <a href="" class="musicName"><i class="first_place">1</i>手写的从前 - 周杰伦</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc20" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName"><i class="second_place">2</i>手心的蔷薇 - 林俊杰</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc21" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName"><i class="third_place">3</i>阳明山 - 周杰伦</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc22" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName"><i>4</i>让初恋像昨天 - 游鸿明</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc23" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName"><i>5</i>罪恶感 - A-Lin</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc24" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName"><i>6</i>你睡了吗？ - 美好前程</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc25" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName"><i>7</i>蓝色圣诞节 - 徐若瑄</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc26" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName"><i>8</i>会飞的想念 - 周兴哲</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc27" class="playIcon" href="javascript:;"></a>
+		            </li>
+		            <li class="show">
+		                <a href="" class="musicName"><i>9</i>可惜没如果 - 林俊杰</a>
+		                <a class="shareIcon" href="javascript:;"></a>
+		                <a id="playlist_add_msc28" class="playIcon" href="javascript:;"></a>
+		            </li>
+		        </ul>
 		    </div>
 		</div>
 		<div class="mb_footer">

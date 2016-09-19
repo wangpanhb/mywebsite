@@ -148,7 +148,7 @@
 // 	});
 // })
 $(function(){
-		var len=$(".main_banner li").length;
+		var len=$(".main_banner .banner_li li").length;
 	var index_2=0;
 	var timer=800;
 	var intervaltimer=0;
